@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [Xingchen SentriScan — Agent Micro-Utilities Matrix](https://xhdapi.xhdym.sbs:8443/asp/.well-known/x402) — 10 deterministic, sub-10ms micro-tools for agents: contract risk scan, secret-leak scan, market factors, token-efficient markdown extraction, DEX arbitrage spread, impermanent loss, EVM address validation, LLM JSON repair, wash-trade detection, EIP-1559 gas optimizer. x402 v2 USDT0 on X Layer via OKX facilitator ($0.01/call), zero private key. 3 free calls/day per IP, no signup - try: `curl -X POST https://xhdapi.xhdym.sbs:8443/asp/v1/scan-contract -H "Content-Type: application/json" -d '{"code":"contract T {}"}'`. MCP JSON-RPC at `/mcp`. ([Directory card](https://agent-tools.cloud/api/v1/services/xhdapi-xhdym-sbs-sub320))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
