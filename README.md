@@ -18,6 +18,7 @@
 - [💡 Example Applications](#-example-applications)
 - [🎨 Use Cases & Patterns](#-use-cases--patterns)
 - [🤖 AI Agent Integration](#-ai-agent-integration)
+- [Xingchen SentriScan ASP](https://asp.xhdym.sbs) — 10 deterministic security & finance micro-tools for agents (contract risk scan, secrets/PII leak scan, wash-trading detection, arbitrage & impermanent-loss calculators, JSON repair, gas optimizer). $0.01 per call, USDT0 on X Layer via OKX x402 facilitator. Zero LLM, zero API keys, free tier 3 calls/day/IP, sub-10ms. Discovery at `/.well-known/x402`, MCP at `/mcp`. ([Stats](https://asp.xhdym.sbs/v1/stats)) ([MCP](https://asp.xhdym.sbs/mcp))
 - [Octodamus](https://api.octodamus.com) — AI market-intelligence API for agents. 33 pay-per-call x402 endpoints on Base ($0.01–$0.02, USDC, no keys): cross-venue derivatives facts, prediction-market odds, congressional trades, macro reference numbers, and a tokenized-equity suite (24/7 fair value, on-chain basis, and Arcus perp facts for Robinhood Chain). Ed25519-signed responses, MCP server, all endpoints cataloged in the CDP x402 Bazaar. ([llms.txt](https://octodamus.com/llms.txt)) ([Discovery](https://api.octodamus.com/.well-known/x402.json)) ([MCP](https://smithery.ai/server/octodamusai/market-intelligence))
 - [🔨 Tools & Utilities](#-tools--utilities)
 - [🧪 Testing & Development](#-testing--development)
